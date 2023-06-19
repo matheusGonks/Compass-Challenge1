@@ -4,7 +4,7 @@
 ## Como executar
 
 Como a  aplicação faz uso de um banco de dados no PostgreSQL anexei o arquivo do banco de dados "ecommerce.sql", que possui as tabelas que são 
-utilizadas pela aplicação. A única tabela que já possui registros logo do início é a tabela de Produtos. Para executar a aplicação é preciso antes executar o servidor e criar o banco de dados a partir do arquivo **ecommerce.sql** .
+utilizadas pela aplicação. A única tabela que já possui registros logo do início é a tabela de Produtos. Para executar a aplicação é preciso antes executar o servidor e criar o banco de dados a partir do arquivo **ecommerce.sql**, por questão de facilidade o banco deve se chamar "ecommerce" já que é o que está na URL das conexões.
 
 A aplicação em si utiliza o Maven para configurar as dependencias, de forma que elas já estão definidias em **pom.xml**.
 
